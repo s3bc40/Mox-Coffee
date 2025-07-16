@@ -80,4 +80,3 @@ def test_potential_bug(coffee_bought):
     initial_wallet: int = boa.env.get_balance(
         coffee_bought.OWNER()
     )  # should be zero.. why is this not zero???
-    breakpoint()
